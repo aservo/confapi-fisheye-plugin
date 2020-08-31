@@ -1,5 +1,5 @@
 = ConfAPI for Fisheye / Crucible
-github@aservo.com
+opensource@aservo.com
 1
 :toc: left
 :numbered:
@@ -9,7 +9,7 @@ github@aservo.com
 :specDir: src/main/resources/doc/
 :snippetDir: 
 :generator-template: v1 2019-12-20
-:info-url: https://github.com/aservo/fisheye-confapi-plugin
+:info-url: https://github.com/aservo/confapi-fisheye-plugin
 :app-name: ConfAPI for Fisheye / Crucible
 
 [abstract]
