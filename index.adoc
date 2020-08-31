@@ -1,0 +1,111 @@
+= ConfAPI for Fisheye / Crucible
+opensource@aservo.com
+1
+:toc: left
+:numbered:
+:toclevels: 3
+:source-highlighter: highlightjs
+:keywords: openapi, rest, ConfAPI for Fisheye / Crucible 
+:specDir: src/main/resources/doc/
+:snippetDir: 
+:generator-template: v1 2019-12-20
+:info-url: https://github.com/aservo/confapi-fisheye-plugin
+:app-name: ConfAPI for Fisheye / Crucible
+
+[abstract]
+.Abstract
+This plugin provides methods for accessing configuration for Fisheye / Crucible.
+
+
+// markup not found, no include::{specDir}intro.adoc[opts=optional]
+
+
+== Access
+
+* *HTTP Basic* Authentication _basicAuth_
+
+
+
+
+
+== Endpoints
+
+
+[.Ping]
+=== Ping
+
+
+[.getPing]
+==== getPing
+    
+`GET /ping`
+
+Simple ping method for probing the REST api. Returns 'pong' upon success
+
+===== Description 
+
+
+
+
+// markup not found, no include::{specDir}ping/GET/spec.adoc[opts=optional]
+
+
+
+===== Parameters
+
+
+
+
+
+
+
+===== Return Type
+
+
+
+-
+
+===== Content Type
+
+* text/plain
+
+===== Responses
+
+.http response codes
+[cols="2,3,1"]
+|===         
+| Code | Message | Datatype 
+
+
+| 0
+| default response
+|  <<>>
+
+|===         
+
+===== Samples
+
+
+// markup not found, no include::{snippetDir}ping/GET/http-request.adoc[opts=optional]
+
+
+// markup not found, no include::{snippetDir}ping/GET/http-response.adoc[opts=optional]
+
+
+
+// file not found, no * wiremock data link :ping/GET/GET.json[]
+
+
+ifdef::internal-generation[]
+===== Implementation
+
+// markup not found, no include::{specDir}ping/GET/implementation.adoc[opts=optional]
+
+
+endif::internal-generation[]
+
+
+[#models]
+== Models
+
+
