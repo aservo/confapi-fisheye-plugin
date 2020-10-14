@@ -62,7 +62,7 @@ public class DirectoryBeanUtil {
         }
 
         DirectoryImpl directory = new DirectoryImpl(directoryBean.getName(), getDirectoryType(directoryBean), RemoteCrowdDirectory.class.getName());
-        directory.setActive(directoryBean.isActive());
+        directory.setActive(directoryBean.getActive() != null && directoryBean.getActive());
         directory.setDescription(directoryBean.getDescription());
         directory.setAttributes(attributes);
 
