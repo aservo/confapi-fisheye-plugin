@@ -51,7 +51,7 @@
         <!-- This property ensures consistency between the key in atlassian-plugin.xml and the OSGi bundle's key. -->
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
         <atlassian.spring.scanner.version>1.2.13</atlassian.spring.scanner.version>
-        <confapi-commons.version>0.0.26-SNAPSHOT</confapi-commons.version>
+        <confapi-commons.version>0.0.27-SNAPSHOT</confapi-commons.version>
         <crowd-remote.version>2.9.5</crowd-remote.version>
         <fecru.data.version>4.6.1-20181008080545</fecru.data.version>
         <fecru.version>4.6.1-20181008080545</fecru.version>
@@ -103,14 +103,14 @@
 
         <dependency>
             <groupId>com.atlassian.fisheye</groupId>
-            <artifactId>atlassian-fisheye-api</artifactId>
+            <artifactId>fisheye-jar</artifactId>
             <version>${fecru.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>com.atlassian.crucible</groupId>
-            <artifactId>atlassian-crucible-scmutils</artifactId>
+            <groupId>com.atlassian.fisheye</groupId>
+            <artifactId>atlassian-fisheye-api</artifactId>
             <version>${fecru.version}</version>
             <scope>provided</scope>
         </dependency>
