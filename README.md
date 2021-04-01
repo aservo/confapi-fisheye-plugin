@@ -4,7 +4,7 @@ ConfAPI for Fisheye/ Crucible
 =============================
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.aservo.atlassian/confapi-fisheye-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.aservo.atlassian/confapi-fisheye-plugin)
-[![Build Status](https://circleci.com/gh/aservo/confapi-fisheye-plugin.svg?style=shield)](https://circleci.com/gh/aservo/confapi-fisheye-plugin)
+[![Build Status](https://github.com/aservo/confapi-fisheye-plugin/actions/workflows/ci_master.yaml/badge.svg)](https://github.com/aservo/confapi-fisheye-plugin/actions/workflows/ci_master.yaml)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=aservo_confapi-fisheye-plugin&metric=coverage)](https://sonarcloud.io/dashboard?id=aservo_confapi-fisheye-plugin)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aservo_confapi-fisheye-plugin&metric=alert_status)](https://sonarcloud.io/dashboard?id=aservo_confapi-fisheye-plugin)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
