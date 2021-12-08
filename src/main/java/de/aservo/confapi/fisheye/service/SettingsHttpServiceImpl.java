@@ -48,11 +48,25 @@ public class SettingsHttpServiceImpl implements SettingsHttpService {
     public SettingsHttpBean setSettings(
             SettingsHttpBean settings) {
 
-        server.setContext(settings.getWebContext());
-        http.setBind(settings.getBindAddress());
-        http.setProxyScheme(settings.getProxyScheme());
-        http.setProxyHost(settings.getProxyHost());
-        http.setProxyPort(BigInteger.valueOf(settings.getProxyPort()));
+        if(settings.getWebContext() != null){
+            server.setContext(settings.getWebContext());
+        }
+        
+        if(settings.getBindAddress() != null){
+            http.setBind(settings.getBindAddress());
+        }
+        
+        if(settings.getProxyScheme() != null){
+            http.setProxyScheme(settings.getProxyScheme());
+        }
+        
+        if(settings.getProxyHost() != null){
+            http.setProxyHost(settings.getProxyHost());
+        }
+        
+        if(settings.getProxyPort() != null){
+            http.setProxyPort(BigInteger.valueOf(settings.getProxyPort()));
+        }
 
         return getSettings();
     }
